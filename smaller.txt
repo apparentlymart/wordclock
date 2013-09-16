@@ -1,0 +1,36 @@
+
+T W E N T Y T E N
+F I V E H A L F
+Q U A R T E R
+P A S T O   S I X
+E I G H T W O N E
+E L E V E N I N E
+T W E L V E T E N
+F O U R T H R E E
+S E V E N F I V E
+
+five        *
+ten         *
+quarter     *
+twenty      *
+twenty five *
+half        *
+past        *
+to          *
+one         *
+two         *
+three       *
+four        *
+five        *
+six         *
+seven       *
+eight       *
+nine        *
+ten         *
+eleven      *
+twelve      *
+
+
+
+
+
