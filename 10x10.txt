@@ -1,0 +1,286 @@
+
+1 2 3 4 5 6 7 8 9 0
+T W E N T Y T I M E
+T E N H A L F I V E
+A   Q U A R T E R
+  P A S T O   S I X
+E I G H T W E L V E
+H E L L O E A T G O
+T W O N E S E V E N
+T E N I N E W A K E
+T H R E E L E V E N
+F I V E F O U R U P
+
+
+five        *
+ten         * 
+quarter     *
+twenty      *
+twenty five *
+half        *
+------------
+past        *
+to          *
+------------
+one         *
+two         *
+three       *
+four        *
+five        *
+six         *
+seven       *
+eight       *
+nine        *
+ten         *
+eleven      *
+twelve      *
+
+time to ...
+- go
+- sleep
+- wake up
+- eat
+
+---------------------------------------------------
+
+1 2 3 4 5 6 7 8 9 0
+S E P T R O I S I X
+U N E U F D I X
+Q U A T R E H U I T
+C I N Q D E U X
+H E U R E S   E T
+M O I N S D E M I E
+R É V E I L L E R
+V I N G T S A L U T
+D I X P A R T I R
+  C I N Q U A R T
+
+
+salut       *
+------
+une         *
+deux        *
+trois       *
+quatre      *
+cinq        *
+six         *
+sept        *
+huit        *
+neuf        *
+dix         *
+----
+heure       *
+heures      *
+----
+et          *
+moins       *
+----
+cinq        *
+dix         *
+quart       *
+vingt       *
+vingt cinq  *
+demie       *
+
+partir (leave)          *
+manger (eat)
+dormir (sleep)
+réveiller (wake up)     *
+
+---------------------------------------------------
+
+Interesting cases in German vs. English:
+- fünf vor halb drei -- five until half to three (twenty-five past two)
+- halb drei -- half to three (half past two)
+- fünf nach halb drei -- five after half to three (twenty five to three)
+...so in German the "halb" must go after the "vor" and "nach",
+   and luckily we don't need to fit "fünfundzwanzig", which is too long to fit
+
+1 2 3 4 5 6 7 8 9 0
+V I E R T E L
+      Z W A N Z I G
+F Ü N F     Z E H N
+H I V O R   H A L B
+N A C H   Z W Ö L F
+Z E H N E U N
+S E C H S I E B E N
+E L F Ü N F Z W E I
+V I E R D R E I
+    A C H T E I N S
+
+hi      *
+--------
+fünf    *
+zehn    *
+viertel *
+zwanzig *
+--------
+vor     *
+nach    *
+--------
+halb    *
+--------
+eins    *
+zwei    *
+drei    *
+vier    *
+fünf    *
+sechs   *
+sieben  *
+acht    *
+neun    *
+zehn    *
+elf     *
+zwölf   *
+--------
+
+no room for special alarm texts in German.
+viertel and zwanzig take up two whole lines on their own
+so not much space is left for extra words.
+
+---------------------------------------------------
+
+"veinticinco" is too long for a ten-character display, so we
+have to cheat and split it over two lines.
+Otherwise it works.
+
+1 2 3 4 5 6 7 8 9 0
+T R E S E I S U N A
+      D O S I E T E
+C I N C O C H O
+Q U A T R O D I E Z
+N U E V E   Y
+M E D I A M E N O S
+D I E Z V E I N T E
+V E I N T I H O L A
+S A L I R C I N C O
+C U A R T O
+
+hola    *
+-------
+una     *
+dos     *
+tres    *
+quatro  *
+cinco   *
+seis    *
+siete   *
+ocho    *
+nueve   *
+diez    *
+--------
+y       *
+menos   *
+--------
+media   *
+cuarto  *
+cinco   *
+diez    *
+veinte  *
+veinticinco *
+
+salir (leave)
+
+---------------------------------------------------
+
+A word clock using Latin words, maybe?
+The romans apparently defined "hours" as 12 subdivisions between sunrise and
+sunset, and so the lengths of their hours varied throughout the year and
+didn't line up with ours.
+However, they had some vocabulary for time-telling that we can borrow and
+pervert to describe our modern timekeeping system.
+
+This doesn't work because all of the words end with A but none of
+them begin with A, and so we don't benefit from any "compression" achieved
+by running words together.
+
+1 2 3 4 5 6 7 8 9 0 1 2
+D I M I D I A
+Q U A D R A N S
+D O D R A N S
+D U O D E C I M A
+U N D E C I M A
+N O N A Q U I N T A
+S E P T I M A
+P R I M A 
+S E X T A   H O R A
+
+
+ave                 hello
+salve               hello
+--------
+quadrans            quarter past    *
+dimidia             half past       *
+dodrans             quarter to      *
+---------
+prima               first           *
+secunda             second
+tertia              third
+quarta              fourth
+quinta              fifth           *
+sexta               sixth           *
+septima             seventh         *
+octava              eighth
+nona                ninth           *
+decima              tenth
+undecima            eleventh        *
+duodecima           twelfth         *
+---------
+hora                hour            *
+
+primasecundatertiaquartaquintasextaseptimaoctavanonadecimaundecimaduodecima
+
+---------------------------------------------------
+
+I don't know Russian at all, so this is probably very wrong.
+But I just wanted to try a non-Latin language and see how that fits.
+Not possible to do properly in russian because ОДИ́ННАДЦАТЬ (11)
+is 11 characters long. So Wedged the ТЬ together into a single cell.
+Also takes 12 rows to fit everything in, because in Russian they
+(apparently) count minutes all the way up to the 50s, rather than
+switching to "minutes until next hour" at half past.
+
+1 2 3 4 5 6 7 8 9 0
+С Е М Ь П Я Т Ь        (hour, 7, 5)
+Д В Е Н А́ Д Ц А Т Ь    (12)
+О Д И́ Н Н А Д Ц А ТЬ   (11, with ТЬ together in one cell because this word is too long)
+Ч Е Т Ы́ Р Е Д В А      (4, 2)
+  В О́ С Е М Ь Т Р И    (8, 3)
+Ч А С О́ В С О́ Р О К    ("hour"/"hours", 40 - words run together with no space so it'll fit)
+П Я Т Н А́ Д Ц А Т Ь    (15)
+Д Е́ С Я Т Ь            (10)
+Д В А́ Д Ц А Т Ь        (20)
+    Т Р И́ Д Ц А Т Ь    (30)
+П Я Т Ь Д Е С Я́ Т      (50)
+П Я Т Ь                (5)
+
+
+ПРИВЕТ (hi)
+--------------
+ЧАС ("hour" - 1clock)   *
+ДВА 2                   *
+ТРИ 3                   *
+ЧЕТЫ́РЕ 4               *
+ПЯТЬ 5                  *
+ШЕСТЬ 6
+СЕМЬ 7                  *
+ВО́СЕМЬ 8               *
+ДЕ́ВЯТЬ 9
+ДЕ́СЯТЬ 10
+ОДИ́ННАДЦАТЬ 11          *
+ДВЕНА́ДЦАТЬ 12           *
+--------------
+ЧАСО́В ("hours")
+--------------
+ПЯТЬ 5
+ДЕ́СЯТЬ 10              *
+ПЯТНА́ДЦАТЬ 15          *
+ДВА́ДЦАТЬ 20            *
+ДВА́ДЦАТЬ ПЯТЬ 25
+ТРИ́ДЦАТЬ 30            *
+ТРИ́ДЦАТЬ ПЯТЬ 35
+СО́РОК 40               *
+СО́РОК ПЯТЬ 45
+ПЯТЬДЕСЯ́Т 50           *
+ПЯТЬДЕСЯ́Т ПЯТЬ 55
+
