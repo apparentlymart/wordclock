@@ -1,7 +1,9 @@
 
+Two different layouts in English:
+
 T W E N T Y T E N
-F I V E H A L F
-Q U A R T E R
+    H A L F I V E
+Q U A R T E R H I
 P A S T O   S I X
 E I G H T W O N E
 E L E V E N I N E
@@ -9,6 +11,7 @@ T W E L V E T E N
 F O U R T H R E E
 S E V E N F I V E
 
+hi          *
 five        *
 ten         *
 quarter     *
@@ -31,6 +34,167 @@ eleven      *
 twelve      *
 
 
+T W E N T Y T E N
+    H A L F I V E
+Q U A R T E R H I
+P A S T O   S I X
+E L E V E N I N E
+T H R E E I G H T
+T W E L V E T E N
+S E V E N F I V E
+F O U R T W O N E
+
+hi          *
+five        *
+ten         *
+quarter     *
+twenty      *
+twenty five *
+half        *
+past        *
+to          *
+one         *
+two         *
+three       *
+four        *
+five        *
+six         *
+seven       *
+eight       *
+nine        *
+ten         *
+eleven      *
+twelve      *
+
+---------------------------------------------------
+
+Possible for French except for a cheat of not having a space
+in "vingt cinq".
+
+1 2 3 4 5 6 7 8 9
+C I N Q U A T R E
+S E P T S A L U T
+S I X D I X U N E
+N E U F D E U X  
+H U I T R O I S  
+H E U R E S   E T
+T R E N T E D I X
+Q U I N Z E
+V I N G T C I N Q
+
+salut       *
+------
+une         *
+deux        *
+trois       *
+quatre      *
+cinq        *
+six         *
+sept        *
+huit        *
+neuf        *
+dix         *
+----
+heures      *
+----
+et          *
+moins       
+----
+dix         *
+cinq        *
+quinze      *
+trente      *
+vingt       *
+vingt cinq  *
+
+---------------------------------------------------
+
+Can't make it fit in nine rows for German. Not enough words can combine together.
+
+Interesting cases in German vs. English:
+- fünf vor halb drei -- five until half to three (twenty-five past two)
+- halb drei -- half to three (half past two)
+- fünf nach halb drei -- five after half to three (twenty five to three)
+...so in German the "halb" must go after the "vor" and "nach",
+   and luckily we don't need to fit "fünfundzwanzig", which is too long to fit
+
+1 2 3 4 5 6 7 8 9
+Z W A N Z I G
+    V I E R T E L
+F Ü N F   Z E H N
+V O R N A C H
+H A L B   A C H T
+Z W Ö L F D R E I
+S I E B E N E U N
+E I N S E C H S
+E L F Ü N F
+Z W E I V I E R
+Z E H N
+
+
+Ö
+
+hallo
+--------
+fünf    *
+zehn    *
+viertel *
+zwanzig *
+--------
+vor     *
+nach    *
+--------
+halb    *
+--------
+eins    *
+zwei    *
+drei    *
+vier    *
+fünf    *
+sechs   *
+sieben  *
+acht    *
+neun    *
+zehn    *
+elf     *
+zwölf   *
+--------
+
+
+---------------------------------------------------
+
+not possible for spanish because "veinticinco" is too long
+
+1 2 3 4 5 6 7 8 9
+N U E V E D I E Z
+Q U A T R O C H O
+S E I S C I N C O
+T R E S E I E T E
+D O S U N A   Y
+M E N O S
+D I E Z C I N C O
+C U A R T O
+M E D I A
+
+
+una     *
+dos     *
+tres    *
+quatro  *
+cinco   *
+seis    *
+siete   *
+ocho    *
+nueve   *
+diez    *
+y       *
+menos   *
+media   *
+cuarto  *
+cinco   *
+diez    *
+veinte      
+veinticinco 
 
 
 
