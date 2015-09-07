@@ -2635,7 +2635,7 @@
   (gr_text https://github.com/apparentlymart/wordclock (at 170 23) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)) (justify right))
   )
-  (gr_text "Wordclock v0.1" (at 170 21) (layer F.SilkS)
+  (gr_text "Wordclock v0.2" (at 170 21) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
   )
   (gr_arc (start 171 188) (end 172 188) (angle 90) (layer Edge.Cuts) (width 0.1))
